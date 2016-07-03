@@ -6,7 +6,7 @@ buildtest.test: $(GOFILES)
 
 .PHONY: system-tests
 system-tests: buildtest.test
-	./test.test -systemTest -test.coverprofile ./coverage.cov
+	./golang_coverage_example.test -systemTest -test.coverprofile ./coverage.cov
 
 .PHONY: testsuite
 testsuite: system-tests
