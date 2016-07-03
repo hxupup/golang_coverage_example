@@ -4,3 +4,4 @@
 
 执行测试例，kill，必须优雅退出，从main return，才能输出覆盖率计数
 
+注意编译的时候放在$GOPATH/src下
